@@ -4,3 +4,12 @@
     margin: 0 auto;
   }
 }
+
+.hint {
+  color: black
+}
+
+.accent {
+  color: #2688eb;
+  font-weight: 500;
+}
