@@ -1,0 +1,41 @@
+@media screen and (min-width: 800px) {
+  .group--Hd2KR {
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+
+.hint--kd4ZR {
+  color: black;
+}
+
+.accent--BAKw7 {
+  color: #2688eb;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 800px) {
+  .group--XLQS6 {
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+
+.buttonWrapper--qNYNz {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  margin: 10px 15px;
+}
+
+.intervalSymbol--htOEg {
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+}
+
