@@ -79,6 +79,13 @@ function Form({ setPanel, setBookings, bookings }) {
     setFromTime('');
     setToTime('');
     setComment('');
+    setStatus({
+      floor: 'default',
+      room: 'default',
+      fromTime: 'default',
+      toTime: 'default',
+      toTimeMessage: '',
+    })
   };
 
   return (
