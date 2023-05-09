@@ -1,16 +1,24 @@
 @media screen and (min-width: 800px) {
-    .group {
-        width: 800px;
-        margin: 0 auto;
-    }
+  .group {
+    width: 800px;
+    margin: 0 auto;
+  }
 }
 
 .buttonWrapper {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 15px;
-    margin: 10px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  margin: 10px 15px;
+}
+
+.intervalSymbol {
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  color: grey;
 }
