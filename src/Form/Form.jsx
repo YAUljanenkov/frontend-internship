@@ -56,7 +56,6 @@ function Form({ setPanel, setBookings, bookings }) {
       return;
     }
 
-    console.log(date);
     const booking = {
       tower,
       floor,

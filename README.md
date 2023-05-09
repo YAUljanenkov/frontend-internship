@@ -1,49 +1,23 @@
-# Create VKUI App
+# Booking form
+Выполнил Ульяненков Ярослав.
 
-## How to use
+Этот репозиторий хранит выполненное тестовое задание для отбора на [стажировку VK](https://internship.vk.company/vacancy/632).
 
-### With NPX
+_Протестировать работу формы можно [здесь](https://yauljanenkov.github.io/frontend-internship/)._
 
-```bash
-npx create-vkui-app <project-directory>
-```
+## Что было реализовано
 
-[NPX](https://github.com/npm/npx) allows you to always use the **latest** version of the package without a global installation.
+Была разработана форма для бронирования переговорки, а также экран со списком бронирований.
 
-### With installing the package globally
+Форма для бронирования проверяет наличие введенных данных, а также следит, чтобы время окончания бронирования
+не было больше времени начала бронирования.
 
-Install the package globally via yarn
+Веб-приложение адаптировано под мобильные устройства. 
 
-```bash
-yarn global add create-vkui-app
-```
+## Что было использовано
 
-and use as follows
+Веб-приложение разработано с использованием React и module CSS.
 
-```bash
-create-vkui-app <project-directory>
-```
+Была использована библиотека компонентов [VKUI](https://vkcom.github.io/VKUI/#/About), 
+проект был создан с помощью утилиты `create-vkui-app`.
 
-This way is less recommended because you will have to update the package yourself.
-
-#### `--help` or `-h`
-
-Prints the synopsis and a list of options
-
-## Scripts
-
-Inside the newly created project, you can run some built-in commands:
-
-#### `yarn start`
-
-Runs the app in development mode. Open http://localhost:8080 to view it in the browser.
-
-The page will automatically reload if you make changes to the code. You will see the build errors and lint warnings in the console.
-
-#### `yarn run build`
-
-Builds the app for production to the build folder. It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.
-
-Your app is ready to be deployed.

@@ -16,7 +16,6 @@ import PropTypes from 'prop-types';
 import { Icon12ClockOutline, Icon28AddOutline } from '@vkontakte/icons';
 
 function BookingList({ bookings, setPanel }) {
-  console.log(bookings);
   return (
     <Panel>
       <PanelHeader>Booking Service</PanelHeader>
